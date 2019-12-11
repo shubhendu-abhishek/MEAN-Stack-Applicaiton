@@ -1,0 +1,26 @@
+<div class="container logInForm" ng-controller="newUserRegController">
+    <div class="row">
+
+        <form name="LogInForm" novalidate ng-submit="RegisterUser()">
+            <h1>Register User For News Blogs</h1>
+            <div class="form-group">
+                <label for="exampleInputPassword1">User Name</label>
+                <input type="text" class="form-control" id="UserName" ng-model="UserName" placeholder="User Name"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">User Name</label>
+                <input type="email" class="form-control" id="email" ng-model="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="password" ng-model="password" placeholder="Password"
+                    required>
+            </div>
+            <button type="submit" class="btn btn-primary" ng-disabled="LogInForm.$invalid">Submit</button>
+            <div ng-show="LogInForm.$error.required && LogInForm.$dirty" id="errorShow">
+                <span>UserName/Email and Password required</span>
+            </div>
+        </form>
+    </div>
+</div>

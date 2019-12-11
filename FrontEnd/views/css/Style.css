@@ -1,0 +1,38 @@
+.logInForm{
+    background-color:#f8f9fa;
+    margin-left: 15%;
+    padding: 5% 0% 3% 25%;
+    margin-top: 8%;
+}
+#errorShow{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.regBtm{
+    margin-top: 7px;
+}
+
+/* New Post */
+.newPostCintainer{
+    height: 100%;
+    width: 90%;
+    padding: 0%;
+}
+
+.postContainer{
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+}
+.postCreate{
+    background-color:#f8f9fa;
+    height: 10%;
+    padding: 2%;
+}
+.postFeeds{
+    height: 90%;
+    background-color:#cbe1f7;
+}
+#editDeleteBtn{
+    float: right;
+}
